@@ -85,9 +85,15 @@ public class Main {
         }
     }
     public static Integer sumAllIntegersFromList(ArrayList<Integer> list) {
+<<<<<<< HEAD
         ArrayList<Integer> copyOfList2 = new ArrayList<Integer>(storeAllInputInArrayListUntilNegative());
         Integer sum1 = 0;
         for (int i : copyOfList2) {
+=======
+
+        Integer sum1 = 0;
+        for (int i : list) {
+>>>>>>> 06ee1e6 (Initial commit)
             sum1 = sum1 + i;
         }
         return sum1;
